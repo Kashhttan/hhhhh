@@ -1,0 +1,41 @@
+h1{
+    color: #ff0000; 
+    font-size: 80px;
+    box-shadow: 2px 2px 2px 10px goldenrod;
+    background: rgb(0, 0, 255);
+    font-weight: 500;
+    line-height: 160px;
+    letter-spacing: 2px;
+    border: 10px solid white;
+    width: 700px;
+    height: 700px;
+    padding: 0 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.rect{
+    border-radius: 10px;
+}
+.rect.shadow{
+    border-radius: 0;
+    box-shadow: 0 0 10px #1a1a1a;
+}
+.circle{
+    border-radius: 100px;
+}
+img.long{
+    border-radius: 10px;
+    height: 400px !important;
+}
+#img_egik_1{
+    height: 600px;
+    width: 300px;
+}
+body img.long#img_egik_1{
+
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="rect">
+        <div class="flex">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="flex">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="flex">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="flex">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="flex">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle yellow"></div>
+        </div>
+        <div class="flex">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="flex">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="flex">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle yellow"></div>
+        </div>
+        <div class="flex">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle yellow"></div>
+        </div>
+    </div>
+    <div class="circle">
+
+        <div class="yellow"></div>
+
+    </div>
+
+    <style>
+        .rect {
+            width: 900px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-content: start;
+            background: beige;
+        }
+
+        .flex {
+            width: 250px;
+            height: 250px;
+            background-color: burlywood;
+        }
+
+        .circle {
+            width: 30%;
+            height: 30%;
+            background-color: brown;
+            border-radius: 100px;
+        }
+
+        .flex:nth-child(1) {
+            display: flex;
+        }
+
+        .flex:nth-child(2) {
+            display: flex;
+        }
+
+        .circle>.yellow {
+            background-color: yellow;
+        }
+    </style>
+</body>
+
+</html>

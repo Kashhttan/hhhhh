@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+
+<body>
+    <header>
+        <!-- .container-big>.logo+.links+.profile -->
+        <div class="container-big">
+            <div class="logo">
+                <i class="fa fa-cart-shopping"></i>
+                <a href="">
+                    <span>E</span> Grocery
+                </a>
+            </div>
+            <div class="links">
+                <a href="">Домой</a>
+                <a href="">Наши продукты</a>
+                <a href="">Категории</a>
+            </div>
+            <div class="profile">
+                <!-- a.circle.like+a.circle.cart+.avatar>a.photo+a.name{stepasha_2014}>i -->
+                <a href="" class="circle like">
+                    <i class="fa fa-heart"></i>
+                </a>
+                <a href="" class="circle cart">
+                    <i class="fa fa-cart-shopping"></i>
+                </a>
+                <div class="avatar">
+                    <a href="" class="photo circle"></a>
+                    <a href="" class="name">stepasha_2014<i class="fa fa-chevron-down"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- section.section.section-welcome>.container-small>h1{Заказывайте наши товары Выгдно, Быстро и Удобно}+p{Бесплатная доставка}+form>input+button{Найти}+i.fa.fa-search -->
+        <section class="section section-welcome">
+            <div class="container-small">
+                <h1>
+                    Заказывайте наши товары <br>
+                    Выгдно, Быстро и Удобно
+                </h1>
+                <p>#Бесплатная доставка #Здоровая еда #Выгодные цены</p>
+                <form action="">
+                    <input type="text" placeholder="Поиск полезных продуктов" required>
+                    <button>Найти</button>
+                    <i class="fa fa-search"></i>
+                </form>
+            </div>
+        </section>
+
+        <section class="section section-category">
+            <div class="container-small title">
+                <div class="left">
+                    <a href="">
+                        <h2>Категории</h2>
+                        <i class="fa fa-chevron-right"></i>
+                    </a>
+                </div>
+                <div class="right">
+                    <a href="" class="back disabled">
+                        <i class="fa fa-chevron-left "></i>
+                    </a>
+                    <a href="" class="forward enabled">
+                        <i class="fa fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="container-small category-cards">
+                <div class="card">
+                    <img src="./assets/images/category1-driedfr.png" alt="">
+                    <h3>Сухофрукты</h3>
+                </div>
+                <div class="card">
+                    <img src="./assets/images/Category2-fruits.png" alt="">
+                    <h3>Фрукты</h3>
+                </div>
+                <div class="card">
+                    <img src="./assets/images/Category3-vegetables.png" alt="">
+                    <h3>Овощи</h3>
+                </div>
+                <div class="card">
+                    <img src="./assets/images/Category4-Berries.png" alt="">
+                    <h3>Ягоды</h3>
+                </div>
+                <div class="card">
+                    <img src="./assets/images/Category5-Galantery.png" alt="">
+                    <h3>Выпечка</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-products">
+            <div class="container-small title">
+                <div class="left">
+                    <a href="">
+                        <h2>Популярные продукты</h2>
+                    </a>
+                </div>
+                <div class="right">
+                    <a href="" class="forward enabled" id="all_products">
+                        Все товары
+                        <i class="fa fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="container-small grid-products">
+                <div class="col-1 card big">
+                    <h3>почему данные продукты популярны?</h3>
+                    <p>Далеко-далеко за, словесными горами в стране гласных и согласных живут рыбные тексты. Текстов они
+                        даже города рукописи. Повстречался алфавит они ipsum, города эта текста послушавшись, которое
+                        переписали собрал, рукопись назад свой переписывается.</p>
+                    <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Рукопись
+                        коварный lorem буквоград рот рыбного языкового живет лучше заголовок!</p>
+                    <a href="">
+                        <span>Узнать больше <br> о здоровом питании</span>
+                        <i class="fa fa-chevron-right"></i>
+                    </a>
+                </div>
+                <div class="col-1 card">
+                    <img src="./assets/images/product1.png" alt="">
+                    <div class="product-title">
+                        <div class="left">
+                            <h3>Капуста</h3>
+                            <p>100 г</p>
+                        </div>
+                        <div class="right">
+                            <a href="">-</a>
+                            <h4>1</h4>
+                            <a href="">+</a>
+                        </div>
+                    </div>
+                    <div class="product-price">
+                        <h3>150₽</h3>
+                        <a href="">
+                            <i class="fa fa-bag-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-1 card">
+                    <img src="./assets/images/product2.png" alt="">
+                    <div class="product-title">
+                        <div class="left">
+                            <h3>Капуста</h3>
+                            <p>100 г</p>
+                        </div>
+                        <div class="right">
+                            <a href="">-</a>
+                            <h4>1</h4>
+                            <a href="">+</a>
+                        </div>
+                    </div>
+                    <div class="product-price">
+                        <h3>150₽</h3>
+                        <a href="">
+                            <i class="fa fa-bag-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-1 card">
+                    <img src="./assets/images/product3.png" alt="">
+                    <div class="product-title">
+                        <div class="left">
+                            <h3>Капуста</h3>
+                            <p>100 г</p>
+                        </div>
+                        <div class="right">
+                            <a href="">-</a>
+                            <h4>1</h4>
+                            <a href="">+</a>
+                        </div>
+                    </div>
+                    <div class="product-price">
+                        <h3>150₽</h3>
+                        <a href="">
+                            <i class="fa fa-bag-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-1 card">
+                    <img src="./assets/images/product4.png" alt="">
+                    <div class="product-title">
+                        <div class="left">
+                            <h3>Капуста</h3>
+                            <p>100 г</p>
+                        </div>
+                        <div class="right">
+                            <a href="">-</a>
+                            <h4>1</h4>
+                            <a href="">+</a>
+                        </div>
+                    </div>
+                    <div class="product-price">
+                        <h3>150₽</h3>
+                        <a href="">
+                            <i class="fa fa-bag-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section-comments">
+            <input type="radio" name="comment" id="comment-input-1" checked>
+            <input type="radio" name="comment" id="comment-input-2">
+            <input type="radio" name="comment" id="comment-input-3">
+            <div class="container-big hider">
+                <div class="line">
+                    <div class="comment">
+                        <div class="top">
+                            <div class="profile">
+                                <img src="" alt="">
+                                <div class="person">
+                                    <h3>Johnatan  5</h3>
+                                    <p>Первый парень на деревне</p>
+                                </div>
+                            </div>
+                            <div class="stars">
+                                <!-- .fa.fa-star -->
+                                <div class="fa fa-star"></div>
+                                <div class="fa fa-star"></div>
+                                <div class="fa fa-star"></div>
+                                <div class="fa fa-star"></div>
+                                <div class="fa fa-star"></div>
+                            </div>
+                        </div>
+                        <p class="bottom">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные
+                            тексты. Семантика путь злых не своего, несколько вскоре подзаголовок курсивных даже о толку
+                            однажды страна? Дорогу, путь, встретил несколько меня, предложения великий деревни оксмокс
+                            там продолжил силуэт ему по всей не. Текст дорогу строчка запятых дал имеет знаках, коварный
+                            себя, она гор безопасную ее речью подпоясал решила буквенных все страну домах? Злых.</p>
+                    </div>
+                    <div class="comment">
+                        <div class="top">
+                            <div class="profile">
+                                <img src="" alt="">
+                                <div class="person">
+                                    <h3>Johnatan Doe 1</h3>
+                                    <p>Первый парень на деревне</p>
+                                </div>
+                            </div>
+                            <div class="stars">
+                                <!-- .fa.fa-star -->
+                                <div class="fa fa-star"></div>
+                                <div class="fa fa-star"></div>
+                                <div class="fa fa-star"></div>
+                                <div class="fa fa-star"></div>
+                                <div class="fa fa-star"></div>
+                            </div>
+                        </div>
+                        <p class="bottom">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные
+                            тексты. Семантика путь злых не своего, несколько вскоре подзаголовок курсивных даже о толку
+                            однажды страна? Дорогу, путь, встретил несколько меня, предложения великий деревни оксмокс
+                            там продолжил силуэт ему по всей не. Текст дорогу строчка запятых дал имеет знаках, коварный
+                            себя, она гор безопасную ее речью подпоясал решила буквенных все страну домах? Злых.</p>
+                    </div>
+                    <div class="comment">
+                        <div class="top">
+                            <div class="profile">
+                                <img src="" alt="">
+                                <div class="person">
+                                    <h3>Johnatan Doe 2</h3>
+                                    <p>Первый парень на деревне</p>
+                                </div>
+                            </div>
+                            <div class="stars">
+                                <!-- .fa.fa-star -->
+                                <div class="fa fa-star"></div>
+                                <div class="fa fa-star"></div>
+                                <div class="fa fa-star"></div>
+                                <div class="fa fa-star"></div>
+                                <div class="fa fa-star"></div>
+                            </div>
+                        </div>
+                        <p class="bottom">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные
+                            тексты. Семантика путь злых не своего, несколько вскоре подзаголовок курсивных даже о толку
+                            однажды страна? Дорогу, путь, встретил несколько меня, предложения великий деревни оксмокс
+                            там продолжил силуэт ему по всей не. Текст дорогу строчка запятых дал имеет знаках, коварный
+                            себя, она гор безопасную ее речью подпоясал решила буквенных все страну домах? Злых.</p>
+                    </div>
+                    <div class="comment">
+                        <div class="top">
+                            <div class="profile">
+                                <img src="" alt="">
+                                <div class="person">
+                                    <h3>Johnatan Doe 3</h3>
+                                    <p>Первый парень на деревне</p>
+                                </div>
+                            </div>
+                            <div class="stars">
+                                <!-- .fa.fa-star -->
+                                <div class="fa fa-star"></div>
+                                <div class="fa fa-star"></div>
+                                <div class="fa fa-star"></div>
+                                <div class="fa fa-star"></div>
+                                <div class="fa fa-star"></div>
+                            </div>
+                        </div>
+                        <p class="bottom">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные
+                            тексты. Семантика путь злых не своего, несколько вскоре подзаголовок курсивных даже о толку
+                            однажды страна? Дорогу, путь, встретил несколько меня, предложения великий деревни оксмокс
+                            там продолжил силуэт ему по всей не. Текст дорогу строчка запятых дал имеет знаках, коварный
+                            себя, она гор безопасную ее речью подпоясал решила буквенных все страну домах? Злых.</p>
+                    </div>
+                    <div class="comment">
+                        <div class="top">
+                            <div class="profile">
+                                <img src="" alt="">
+                                <div class="person">
+                                    <h3>Johnatan  4</h3>
+                                    <p>Первый парень на деревне</p>
+                                </div>
+                            </div>
+                            <div class="stars">
+                                <!-- .fa.fa-star -->
+                                <div class="fa fa-star"></div>
+                                <div class="fa fa-star"></div>
+                                <div class="fa fa-star"></div>
+                                <div class="fa fa-star"></div>
+                                <div class="fa fa-star"></div>
+                            </div>
+                        </div>
+                        <p class="bottom">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные
+                            тексты. Семантика путь злых не своего, несколько вскоре подзаголовок курсивных даже о толку
+                            однажды страна? Дорогу, путь, встретил несколько меня, предложения великий деревни оксмокс
+                            там продолжил силуэт ему по всей не. Текст дорогу строчка запятых дал имеет знаках, коварный
+                            себя, она гор безопасную ее речью подпоясал решила буквенных все страну домах? Злых.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-big switches">
+                <label for="comment-input-1" id="label-comment-1">1</label>
+                <label for="comment-input-2" id="label-comment-2">2</label>
+                <label for="comment-input-3" id="label-comment-3">3</label>
+            </div>
+        </section>
+    </main>
+    <!-- <div class="test-carousel">
+        <input type="radio" name="test-carousel" id="input-1" checked>
+        <input type="radio" name="test-carousel" id="input-2">
+        <input type="radio" name="test-carousel" id="input-3">
+        <label for="input-1" id="label-1">Кнопка 1</label>
+        <label for="input-2" id="label-2">Кнопка 2</label>
+        <label for="input-3" id="label-3">Кнопка 3</label>
+        <div class="carousel">
+            <div class="line">
+                <div class="slide">Слайд1</div>
+                <div class="slide">Слайд2</div>
+                <div class="slide">Слайд3</div>
+            </div>
+        </div>
+    </div> -->
+    <footer>
+
+    </footer>
+</body>
+
+</html>
